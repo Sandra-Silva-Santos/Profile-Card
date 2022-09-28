@@ -1,50 +1,53 @@
 body {
-    background: linear-gradient(to left, lightblue, #040323);
-    font-family: Montserrat, sans-serif;
+    background: linear-gradient(to left, white, #0011ff9f);
+    font-family: 'Roboto', sans-serif;
 }
 
 .card {
     max-width: 300px;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 2px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.9);
+    border-radius: 1px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 2);
 
 }
 
 img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    margin: 2rem;
+
 }
 
 .title {
-    color: #333;
-    font-size: 15px;
+    color: black;
+    font-size: 14px;
 
 }
 
 h2 {
-    color: #333;
+    margin-top: 1rem;
+    color: black;
     font-size: 30px;
     font-weight: 300;
+}
+
+p {
+
+    margin-top: 1rem;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 a {
     color: black;
     text-decoration: none;
     font-size: 25px;
+    margin-bottom: 1.5rem;
 }
 
-p {
-    color: #333;
-    font-size: 18px;
-    font-weight: bold;
-}
 
 button:hover,
 a:hover {
